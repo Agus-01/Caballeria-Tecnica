@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caballeria Tecnica</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="CSS/Imagenes/logo de pagina.jpg">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <nav>
+                <a href="https://www.instagram.com/agus.caballer0" target="_blank">
+                    <img src="CSS/Imagenes/logo insta.png" alt="Instagram" width="40" height="40">
+                  </a>
+                
+              <a href="https://wa.me/5491122881382" target="_blank">
+                    <img src="CSS/Imagenes/whatsapp.png" alt="whatsapp" width="40" height="40">
+                  </a>
+                  
+                   <a href="https://mail.google.com/mail/?view=cm&to=agustincarbone22@gmail.com" target="_blank">
+                    <img src="CSS/Imagenes/logo corre.webp" alt="Gmail" width="40" height="40">
+                  </a>
+                  <a href="https://maps.app.goo.gl/Yg6mgbpBkZbdS6Jg9" target="_blank">
+                    <img src="CSS/Imagenes/logo mundo.png" alt="Gmail" width="40" height="40">
+                  </a>
+        </nav>
+    </header>
+
+
+
+ <!-- Servicios -->
+<section id="servicios">
+  <div class="imganim">
+    <img id="imganim" src="CSS/Imagenes/fondo.jpg" alt="Fondo de servicios">
+
+    <div class="contenido-servicios">
+<h1>Servicios</h1>
+      
+      <div class="service-card" onclick="openModal('service1')">
+        <h3>Reparación de PCs</h3>
+        <p>Diagnóstico y reparación de fallos en hardware y software.</p>
+      </div>
+      <div class="service-card" onclick="openModal('service2')">
+        <h3>Optimización de Rendimiento</h3>
+        <p>Mejora el rendimiento de tu sistema operativo.</p>
+      </div>
+      <div class="service-card" onclick="openModal('service3')">
+        <h3>Instalación de Software</h3>
+        <p>Instalación y configuración de programas y sistemas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Modal -->
+<div id="serviceModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <h2 id="modalTitle">Título del Servicio</h2>
+    <p id="modalDescription">Descripción del servicio.</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+
+
+
+    <!-- Información -->
+    <section id="informacion">
+       <h1><u>Sobre mí</u></h1>
+        <p>Soy Técnico en Informática con una amplia experiencia en el mundo de las computadoras y la tecnología. Mi pasión por el ámbito tecnológico me ha permitido desarrollar un gran conocimiento en hardware, software, redes y sistemas operativos. Mi objetivo es brindar soluciones efectivas a problemas informáticos, mejorar la eficiencia de los sistemas y asegurarme de que todo funcione de manera óptima. Estoy comprometido con la actualización constante de mis conocimientos para ofrecer siempre lo mejor a mis clientes.</p>
+    </section>
+
+  <section id="Datos">
+     <div class="service-card" onclick="openModal('service4')">
+     <img src="CSS/Imagenes/logo de cuenta.png" alt="cuenta" width="80" height="80">
+    <h2>   Datos personales</h2>
+    </div>
+ </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+        <h1>Contacto   
+        <img src="CSS/Imagenes/telefono.png" alt="telefono" width="40" height="40">
+        </h1>
+        <p>Para más información, puedes enviarme un correo o llamarme.</p>
+        <p>Correo: agustincarbone22@gmail.com / Telefono: 11 2288-1382</p>
+        <button id="contact-btn">Contactar</button>
+    </section>   
+
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 Caballeria Técnica. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
